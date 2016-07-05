@@ -35,3 +35,8 @@ MIT
 
 
 **Free Software for your enjoyment!**
+
+**Note:**
+The dragon images are "borrowed" from the game "Secret of Evermore".
+
+https://en.wikipedia.org/wiki/Secret_of_Evermore
