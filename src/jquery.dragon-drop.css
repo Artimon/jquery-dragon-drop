@@ -1,0 +1,11 @@
+.dragon-drop {
+  position: relative; }
+  .dragon-drop .dragon-drop-dragon {
+    position: absolute;
+    left: 50%;
+    top: -162px;
+    width: 200px;
+    height: 200px;
+    margin-left: -130px; }
+
+/*# sourceMappingURL=jquery.dragon-drop.css.map */

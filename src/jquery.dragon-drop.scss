@@ -1,0 +1,14 @@
+.dragon-drop {
+	position: relative; // Low dominance selector to not interfere with plugins.
+
+	.dragon-drop-dragon {
+		position: absolute;
+		left: 50%;
+		top: -162px;
+
+		width: 200px;
+		height: 200px;
+
+		margin-left: -130px;
+	}
+}

@@ -1,0 +1,53 @@
+body {
+	background-color: steelblue;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin: 50px 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.gridster ul {
+	list-style: none;
+}
+
+.gridster ul li {
+	background-color: #ffffff;
+}
+
+.kitten {
+	background-size: cover !important;
+}
+
+.kitten-1 {
+	background: url("http://placekitten.com/g/200/300") center;
+}
+
+.kitten-2 {
+	background: url("http://placekitten.com/g/300/200") center;
+}
+
+.kitten-3 {
+	background: url("http://placekitten.com/g/200/200") center;
+}
+
+.kitten-4 {
+	background: url("http://placekitten.com/g/150/150") center;
+}
+
+.kitten-5 {
+	background: url("http://placekitten.com/g/200/500") center;
+}
+
+.kitten-6 {
+	background: url("http://placekitten.com/g/500/200") center;
+}
+
+.kitten-7 {
+	background: url("http://placekitten.com/g/500/500") center;
+}
