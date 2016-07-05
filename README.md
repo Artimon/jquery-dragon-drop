@@ -5,7 +5,7 @@ Enhances your drag &amp; drop by a dragon!
 
 ### How can I use it?
 
-The jQuery Dragon Drop Plugin should be compatible with most Drag & Drop plugins. Simply apply it to the containers of your drag & drop grid. Thus when your grid is a <ul> the apply the dragon drop to the <li> tags as shown in the demo file under the /example folder.
+The jQuery Dragon Drop Plugin should be compatible with most Drag & Drop plugins. Simply apply it to the containers of your drag & drop grid. Thus when your grid is a &lt;ul&gt; the apply the dragon drop to the &lt;li&gt; tags as shown in the demo file under the /example folder.
 
 ### Setup
 
