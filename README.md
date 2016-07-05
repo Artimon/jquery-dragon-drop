@@ -1,50 +1,31 @@
-# jquery-dragon-drop
+# jQuery Dragon Drop
 Enhances your drag &amp; drop by a dragon!
 
-![alt tag](https://github.com/Artimon/angular-funny-click/blob/master/preview.png?raw=true)
+![alt tag](https://github.com/Artimon/jquery-dragon-drop/blob/master/screenshot.png?raw=true)
 
-### 3 Steps Setup
+### How can I use it?
 
-**1. Include Funny Click Module**
+The jQuery Dragon Drop Plugin should be compatible with most Drag & Drop plugins. Simply apply it to the containers of your drag & drop grid. Thus when your grid is a <ul> the apply the dragon drop to the <li> tags as shown in the demo file under the /example folder.
 
-Include funny-click.js after angular.js and before your app code as this example shows.
+### Setup
 
-You also need to add **Angular Event Bubbling** ( https://github.com/Artimon/angular-event-bubbling ) and include it before the funny click module.
+**1. Include jQuery Dragon Drop sources**
 
+Example:
 ```html
-<script type='text/javascript' src="vendor/angular.min.js"></script>
-<script type='text/javascript' src="vendor/angular-pads/event-bubbling.js"></script>
-<script type='text/javascript' src="vendor/angular-pads/funny-click.js"></script>
-<script type='text/javascript' src="app/app.js"></script>
+<link rel="stylesheet" href="css/vendor/jquery.dragon-drop.css">
+...
+<script type="application/javascript" src="js/vendor/jquery-3.0.0.min.js"></script>
+<script type="application/javascript" src="js/vendor/jquery.dragon-drop.js"></script>
 ```
 
-**2. Add Funny Click To Your App**
-
-Simply add **pads.funnyClick** to your app depenencies.
+**2. Apply Dragon Drop to your grid**
 
 ```js
-var myApp = angular.module('myApp', ['pads.eventBubbling', 'pads.funnyClick']);
-```
-
-**3. Setup Funny Click**
-
-Include the funny click directive into your website body.
-
-- Move the funny-click.png into your img/ folder.
-- Add the funny-click.css to your page.
-- When using a different image or image location change the css image path.
-- You can configure the image size, distance and duration by changing the directive parameters.
-
-```html
-<body pads-event-bubbling>
-    <pads-funny-click
-                     image-width="65"
-                     image-height="17"
-                     dist-min="40"
-                     dist-range="50"
-                     duration="550">
-    </pads-funny-click>
-</body>
+$(function () {
+	$('.gridster ul').gridster({ ... }); // Using gridster for example.
+	$('.gridster li').dragonDrop(); // Apply dragon drop to grid elements.
+});
 ```
 
 License
